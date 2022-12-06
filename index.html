@@ -14,7 +14,16 @@
     <div class="container">
 
     <div class="left">
-        <img src="beautiful-mountain-landscape.jpg" alt="">
+        <img class="sidebar-image" src="beautiful-mountain-landscape.jpg" alt="">
+
+        <div class="overlay-container">
+
+            <img src="odin-lined.png" class="logo-image">
+          <div class="logo-text">
+              <p>Odin Travel</p>
+          </div>
+
+        </div>
     </div>
     <div class="right">
         
@@ -24,22 +33,48 @@
 
         <div class="middle">
             
-            <form action="">
-                <legend>
-                    <fieldset>
-                        <label for=""></label><input type="text">
-                        <label for=""></label><input type="text">
-                        <label for=""></label><input type="text">
-                        <label for=""></label><input type="text">
-                        <label for=""></label><input type="text">
-                        <label for=""></label><input type="text">
-                    </fieldset>
-                </legend>
+            <form action="odin.com/path" method="post">
+                    <legend>Let's Do This!</legend>
+                    
+                            <div class="form-container">
+                                <div class="first-name input">
+                                    <label for="first_name">*First Name:</label>
+                                    <input placeholder="Joe" type="text" id="first_name" name="firstname" required>
+                                </div>
+                                <div class="last-name input">
+                                    <label for="last_name">*Last Name:</label>
+                                    <input placeholder="Smith" type="text" id="last_name" name="lastname" required>
+                                </div>
+                                <div class="email input">
+                                    <label for="user_email">*Email:</label>
+                                    <input placeholder="joesmith@yahoo.com" type="email" id="user_email" name="email" required>
+                                </div>
+                                <div class="phonenumber input">
+                                    <label for="user_phone_number">Phone Number:</label>
+                                    <input placeholder="(111)-222-3333" type="number" id="user_phone_number" name="phonenumber">
+                                </div>
+                                <div class="password input">
+                                    <label for="user_password">*Password:</label>
+                                    <input type="password" id="user_password" name="password" required>
+                                </div>
+                                <div class="confirmedpass input">
+                                    <label for="confirmed_user_password">*Confirm Password:</label>
+                                    <input type="password" id="confirmed_user_password" name="confirmedpassword" required>
+                                </div>
+                            </div>
+             
+                  
+
+                  
+                
             </form>
         </div>
 
         <div class="bottom">
-
+            
+                <button type="submit">Create Account</button>
+                <p class="loginlink">Already have an account? <a href="">Log in</a></p>
+            
         </div>
 
     </div>
